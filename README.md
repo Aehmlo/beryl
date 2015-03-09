@@ -20,9 +20,9 @@ var app = b.app;
 app.listen(1337);
 ```
 ###Options
-* `views` - String. Jade view directory, defaulting to "./views"
-* `pretty` - Boolean. Jade's "pretty" local option, whether to use whitespace to prettify. Defaults to true.
-* `defaultView` - String. Jade view name to be rendered when "/" is requested, defaulting to "index." Do not include file extension (".jade").
+* `views` - String. Jade view directory, defaulting to `./views`.
+* `pretty` - Boolean. Jade's `pretty` local option, whether to use whitespace to prettify. Defaults to `true`. Only used on views for which defaults are not registered.
+* `defaultView` - String. Jade view name to be rendered when `/` is requested, defaulting to `index`. Do not include file extension (`.jade`).
 
 ##License
 

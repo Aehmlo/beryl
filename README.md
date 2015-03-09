@@ -1,6 +1,7 @@
 #Beryl
 Easy, automatic Jade server for development.
 ##Usage
+
 ```javascript
 // Require module
 var Beryl = require("beryl");
@@ -24,6 +25,7 @@ app.listen(1337);
 * `defaultView` - String. Jade view name to be rendered when "/" is requested, defaulting to "index." Do not include file extension (".jade").
 
 ##License
+
     Copyright (c) 2015, Aehmlo Lxaitn <aehmlo@aehmlo.com>
     
     Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.

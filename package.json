@@ -1,0 +1,28 @@
+{
+	"name": "beryl",
+	"version": "1.0.0",
+	"description": "Makes serving Jade files easier, with optional support for added locals.",
+	"main": "index.js",
+	"dependencies": {
+		"express": "^4.12.2",
+		"jade": "^1.9.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Aehmlo/beryl"
+	},
+	"keywords": [
+		"Jade",
+		"Express"
+	],
+	"author": "Aehmlo Lxaitn <aehmlo@aehmlo.com> (https://aehmlo.me/)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Aehmlo/beryl/issues"
+	},
+	"homepage": "https://github.com/Aehmlo/beryl"
+}

@@ -1,6 +1,6 @@
 {
 	"name": "beryl",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Makes serving Jade files easier, with optional support for added locals.",
 	"main": "index.js",
 	"dependencies": {

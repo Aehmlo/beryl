@@ -72,6 +72,9 @@ Beryl.prototype.registerLocals = function(view, locals) {
 			throw new Error("Cannot understand mixture of arrays and non-arrays given. Must be either [Array, Array], [Array], or [String, Object].");
 		}
 	}
+	if(!locals.hasOwnProperty("pretty")) {
+		locals.pretty = self.options.pretty;
+	}
 	self.locals[view] = locals;
 };
 
